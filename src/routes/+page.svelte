@@ -1,6 +1,7 @@
 <script>
 	import logo from '$lib/assets/logo.png';
 	import screenshot from '$lib/assets/1280.png';
+	import { base } from '$app/paths';
 </script>
 
 <svelte:head>
@@ -19,7 +20,7 @@
 				MindChips is a native macOS client designed for speed and efficiency. Enjoy a lightweight experience with seamless multi-device sync, all while keeping your data private and secure.
 			</p>
 			<div class="hero-actions">
-				<a href="/download" class="download-button">Download Now</a>
+				<a href="{base}/download" class="download-button">Download Now</a>
 			</div>
 		</div>
 	</section>
@@ -82,7 +83,7 @@
 		<div class="footer-content">
 			<p class="footer-text">© 2025 Scrapmind.com  All rights reserved.</p>
 			<div class="footer-links">
-				<a href="/privacy" class="footer-link">Privacy Policy</a>
+				<a href="{base}/privacy" class="footer-link">Privacy Policy</a>
 			</div>
 			<div class="contact">
 				<h3 class="contact-title">Contact Us</h3>

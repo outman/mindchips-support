@@ -1,8 +1,9 @@
 <script>
 	import logo from '$lib/assets/logo.png';
+	import { base } from '$app/paths';
 
-	const downloadUrl = '/MindChips_2025-12-14_20-01-06.zip';
 	const fileName = 'MindChips_2025-12-14_20-01-06.zip';
+	const downloadUrl = `${base}/MindChips_2025-12-14_20-01-06.zip`;
 
 	function handleDownload() {
 		const link = document.createElement('a');
@@ -84,9 +85,9 @@
 		<div class="footer-content">
 			<p class="footer-text">© 2025 Scrapmind.com All rights reserved.</p>
 			<div class="footer-links">
-				<a href="/" class="footer-link">Home</a>
+				<a href="{base}/" class="footer-link">Home</a>
 				<span class="separator">|</span>
-				<a href="/privacy" class="footer-link">Privacy Policy</a>
+				<a href="{base}/privacy" class="footer-link">Privacy Policy</a>
 			</div>
 		</div>
 	</footer>

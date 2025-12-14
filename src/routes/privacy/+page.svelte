@@ -1,5 +1,6 @@
 <script>
 	import logo from '$lib/assets/logo.png';
+	import { base } from '$app/paths';
 </script>
 
 <svelte:head>
@@ -103,9 +104,9 @@
 		<div class="footer-content">
 			<p class="footer-text">© 2025 Scrapmind.com All rights reserved.</p>
 			<div class="footer-links">
-				<a href="/" class="footer-link">Home</a>
+				<a href="{base}/" class="footer-link">Home</a>
 				<span class="separator">|</span>
-				<a href="/privacy" class="footer-link">Privacy Policy</a>
+				<a href="{base}/privacy" class="footer-link">Privacy Policy</a>
 			</div>
 		</div>
 	</footer>
