@@ -20,7 +20,7 @@
 				MindChips is a native macOS client designed for speed and efficiency. Enjoy a lightweight experience with seamless multi-device sync, all while keeping your data private and secure.
 			</p>
 			<div class="hero-actions">
-				<a href="{base}/download" class="download-button">Download Now</a>
+				<a href="/" class="download-button">Comming Soon...</a>
 			</div>
 		</div>
 	</section>
