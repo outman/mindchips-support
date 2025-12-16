@@ -2,8 +2,8 @@
 	import logo from '$lib/assets/logo.png';
 	import { base } from '$app/paths';
 
-	const fileName = 'MindChips_2025-12-14_20-01-06.zip';
-	const downloadUrl = `${base}/MindChips_2025-12-14_20-01-06.zip`;
+	const fileName = 'MindChips_2025-12-16_08-00-24.zip'
+	const downloadUrl = `${base}/MindChips_2025-12-16_08-00-24.zip`
 
 	function handleDownload() {
 		const link = document.createElement('a');
