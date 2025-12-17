@@ -2,16 +2,10 @@
 	import logo from '$lib/assets/logo.png';
 	import { base } from '$app/paths';
 
-	const fileName = 'MindChips_2025-12-16_23-33-44.zip'
-	const downloadUrl = `${base}/${fileName}`;
+	const downloadUrl = 'https://apps.apple.com/us/app/mindchips/id6756520278?mt=12';
 
 	function handleDownload() {
-		const link = document.createElement('a');
-		link.href = downloadUrl;
-		link.download = fileName;
-		document.body.appendChild(link);
-		link.click();
-		document.body.removeChild(link);
+        window.location.href = downloadUrl;
 	}
 </script>
 
@@ -63,7 +57,7 @@
 				</button>
 
 				<p class="download-note">
-					Or <a href={downloadUrl} download={fileName} class="download-link">click here</a> to download directly
+					Or <a href="https://apps.apple.com/us/app/mindchips/id6756520278?mt=12" class="download-link">click here</a> to download directly
 				</p>
 			</div>
 
